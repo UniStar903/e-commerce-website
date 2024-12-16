@@ -1,0 +1,401 @@
+body{
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+    text-align: right;
+    height: 65px;
+    z-index: 1;
+}
+#treelogo{
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+#itemwrap{
+    display: inline;
+    position: absolute;
+    right: 400px;
+    top: 20px;
+}
+#dropdown{
+    width: 120px;
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid greenyellow;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    display: none;
+}
+#itemwrap:hover 
+#dropdown{
+    display: block;
+}
+#dropdown:hover 
+#dropdown{
+    display: block;
+}
+#dropitem{
+    padding: 10px 10px;
+}
+#dropitem:hover{
+    color: greenyellow;
+}
+#item{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    padding: 30px 5px;
+}
+#item1{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+    position: absolute;
+    right: 280px;
+}
+#item2{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    padding: 20px 5px;
+    position: absolute;
+    right: 200px;
+}
+#btn{
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 13px;
+    text-align: center;
+    border: 2px solid greenyellow;
+    margin: 10px;
+    display: inline;
+    width: 150px;
+    position: absolute;
+    right: 20px;
+}
+#btnlink{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 15px 29px;
+}
+#btnlink:hover{
+    color: greenyellow;
+}
+#btn:hover{
+    background-color: white;
+    border-color: greenyellow;
+}
+#coverwrap{
+    height: 750px;
+    background-image: url(veganbgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+#text1{
+    position: absolute;
+    top: 150px;
+    font-size: 80px;
+    color: greenyellow;
+    margin: 3% 25%;
+}
+#text2{
+    position: absolute;
+    top: 150px;
+    font-size: 20px;
+    color: white;
+    margin: 300px 100px;
+    margin-bottom: 100px;
+}
+#stepswrap{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: max-content;
+    text-align: center;
+}
+#steptext{
+    padding: 25%;
+}
+#steptext:hover > img{
+    scale: 1.4;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+#moto{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 80px;
+}
+#moto > h4{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+#moto > h1{
+    letter-spacing: -1px;
+    word-spacing: 5px;
+}
+#moto > h5{
+    color: gray;
+}
+#cardwrap{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: max-content;
+    justify-content: center;
+    column-gap: 30px;
+    padding: 100px 0px;
+}
+#card{
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+}
+#card > img{
+    padding: 20px;
+    border-radius: 100px;
+    background-color: peru;
+    margin: 20px;
+}
+#card:hover > img{
+    scale: 1.2;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+#moto1{
+    text-align: center;
+    background-color: white;
+    padding: 60px;
+}
+#moto1 > h4{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+#moto1 > h1{
+    letter-spacing: -1px;
+    word-spacing: 5px;
+}
+#moto1 > h5{
+    color: gray;
+}
+#commentwrap{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: max-content;
+    width: 100%;
+    justify-content: center;
+    column-gap: 12px;
+}
+#comment{
+    text-align: center;
+    width: 250px;
+    padding: 50px;
+    background-color: lavender;
+    border-radius: 25px;
+}
+#comment > img{
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+#comment:hover{
+    box-shadow: 0px 0px 20px lavender;
+}
+#followus{
+    background-image: url(strawberry.jpeg);
+    background-size: cover;
+    height: 85vh;
+    border-radius: 10px;
+    margin-top: 190px;
+}
+#followbg{
+    position: absolute;
+    right: 0px;
+    opacity: 0.8;
+    background-color: aliceblue;
+    width: 550px;
+    border-radius: 10px;
+    text-align: center;
+    height: 85vh;
+}
+#logo{
+    width: 50px;
+    padding: 50px;
+}
+#h{
+    color: red;
+}
+#p{
+    padding: 0px 70px;
+    padding-bottom: 30px;
+    color: grey;
+}
+#text{
+    width: 50%;
+    padding: 15px;
+    border-width: 3px;
+    border-color: red;
+    color: red;
+    border-radius: 8px;
+}
+#text:hover{
+    text-decoration: underline;
+}
+#submit{
+    margin-top: 50px;
+    padding: 15px;
+    background-color: red;
+    border-radius: 8px;
+    outline: none;
+    border-color: red;
+}
+#submit > a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+#submit:hover{
+    background-color: white;
+    border-color: red;
+}
+#submit:hover > a{
+    color: red;
+}
+#stats{
+    text-align: center;
+    background-color: paleturquoise;
+}
+#stat{
+    display: inline-block;
+    padding: 20px;
+    margin: 30px;
+}
+#stat > p{
+    color: red;
+}
+#videowrap{
+    color: gray;
+    text-align: center;
+    margin: 50px;
+}
+#video{
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+}
+#footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+#getintouch{
+    height: max-content;
+    padding: 30px 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#address > p{
+    color: gray;
+}
+#address > a{
+    color: grey;
+    line-height: 30px;
+}
+#address >h4{
+    color: greenyellow;
+    font-style: italic;
+}
+#form > p{
+    color: gray;
+}
+#form >h4{
+    color: greenyellow;
+    font-style: italic;
+}
+#address{
+    display: inline-block;
+    width: fit-content;
+    padding: 50px;
+}
+#form{
+    display: inline-block;
+    width: fit-content;
+    padding: 50px;
+}
+#field{
+    color: gray;
+    padding: 10px;
+    width: 90%;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+#btnff{
+    padding: 5px 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+#btnff:hover {
+    background-color: white;
+    color: greenyellow;
+    border: 2px solid greenyellow;
+}
+#footer > h5{
+    color: white;
+}
+@media (max-width:900px){
+    #itemwrap{right: 200px;}
+    #item1{display: none;}
+    #item2{display: none;}
+    #stepswrap{grid-template-columns: auto auto;}
+    #cardwrap{grid-template-columns: auto auto;}
+    #commentwrap{grid-template-columns: auto;row-gap: 20px;height: max-content;}
+}
+@media(max-width:600px){
+    #commentwrap{height: max-content;}
+    #followus{height: 100vh;}
+    #followbg{height: 100vh;width: 100%;}
+    #getintouch{grid-template-columns: auto; padding: 10px;}
+}
+@media(max-width:506px){
+    #text1{font-size: 30px;}
+    #text2{top: 10vh;}
+    #coverwrap{height: 700px;width: 100%;background-repeat: no-repeat;}
+    #cardwrap{grid-template-columns: auto;}
+    #stepswrap{grid-template-columns: auto;}
+    #commentwrap{height: max-content;}
+    #getintouch{height: max-content;}
+}
+@media(max-width:377px){
+    #comment{width: 100px;}
+    #itemwrap{display: none;}
+    #video{width: 80%;height: 70%;}
+    #videowrap{margin: 10px;}
+}
+@media(max-width:300px){
+    #text2{display: none;}
+    #coverwrap{height: 70vh;}
+    #itemwrap{display: none;}
+    #commentwrap{height: max-content;}
+    #video{width: 90%;height: 80%;}
+    #videowrap{margin: 5px;}
+}
