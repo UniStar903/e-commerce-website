@@ -1,10 +1,23 @@
-body{
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 #nav{
     position: fixed;
     width: 100%;
+    right: 0px;
     top: 0px;
     background-color: white;
     text-align: right;
